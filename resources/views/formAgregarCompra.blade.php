@@ -30,7 +30,7 @@
         </div>
 
         <div class="form-group">
-            <label for="comStock">Stock:</label>
+            <label for="comStock">Cantidad:</label>
             <input type="number" name="comStock" value=""class="form-control" id="comStock" required min="0" step="1">
         </div>
 

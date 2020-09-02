@@ -56,7 +56,7 @@
                         <div class="card-body">
                             <h5 class="card-title"></h5>
                             <p class="card-text"></p>
-                            <a href="cat/algo" class="btn btn-info">Ver movimientos</a>
+                            <a href="/movimientos" class="btn btn-info">Ver movimientos</a>
                         </div>
                     </div>
                 </div>

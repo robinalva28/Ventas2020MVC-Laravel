@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8bcd9f83-d1bf-462e-ad36-f9f79b3a5613" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Compra.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Compra.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CompraController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CompraController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basededatos.sql" beforeDir="false" afterPath="$PROJECT_DIR$/basededatos.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProductoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/formAgregarCompra.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/formAgregarCompra.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/inicio.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inicio.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -176,7 +176,7 @@
       <workItem from="1598823770554" duration="11792000" />
       <workItem from="1598921078261" duration="7698000" />
       <workItem from="1598969092157" duration="5197000" />
-      <workItem from="1599004458052" duration="1430000" />
+      <workItem from="1599004458052" duration="3988000" />
     </task>
     <servers />
   </component>
@@ -188,9 +188,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1173" y="277" width="524" height="478" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598973546017" />
-    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1598832805192">
+    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1599018428326">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598832805192" />
+    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599018428326" />
   </component>
 </project>

@@ -20,6 +20,20 @@ class CompraController extends Controller
                 'productos'=>$productos
             ]);
     }
+/*METODO QUE LISTA LAS COMPRAS*/
+    public function list()
+    {
+        //
+        $compras = Compra::all();
+        //dd($compras);
+        // dd($productos);
+        // $allVentas = Venta::all();
+        //dd($allVentas);
+        return view('listadoCompras',
+            [
+                'compras'=>$compras
+            ]);
+    }
 
 
     public function store(Request $request)
