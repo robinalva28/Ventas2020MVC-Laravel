@@ -51,9 +51,11 @@ create table compras(
     created_at DATE,
 	updated_at date,
 	comId			int auto_increment primary key,
+	comVendedor		varchar(15) not null,
 	comIdProducto int,
-    comVendedor		varchar(15) not null,
-    empNombre		varchar(40),
+	comStock     int,
+	comPrecio   float,
+	infoAdicional    varchar(80),
     foreign key (comIdProducto) references productos(prdId)
 );
 

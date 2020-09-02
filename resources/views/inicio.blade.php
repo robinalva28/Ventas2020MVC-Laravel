@@ -33,7 +33,7 @@
                         <div class="card-body">
                             <h5 class="card-title"></h5>
                             <p class="card-text"></p>
-                            <a href="cat/algo" class="btn btn-warning">Registrar Compra</a>
+                            <a href="/agregarCompra" class="btn btn-warning">Registrar Compra</a>
                         </div>
                     </div>
                 </div>

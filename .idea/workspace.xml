@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8bcd9f83-d1bf-462e-ad36-f9f79b3a5613" name="Default Changelist" comment="" />
+    <list default="true" id="8bcd9f83-d1bf-462e-ad36-f9f79b3a5613" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Compra.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Compra.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CompraController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CompraController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basededatos.sql" beforeDir="false" afterPath="$PROJECT_DIR$/basededatos.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/inicio.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inicio.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +27,9 @@
         <option value="composer.json" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -127,6 +137,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1gpJQCcQDUis5JqHavAkzUKoSMU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -134,13 +147,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Controllers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/Http/Controllers" />
       <recent name="$PROJECT_DIR$/resources/views" />
+      <recent name="$PROJECT_DIR$/app/Http/Controllers" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/resources/views/layout" />
     </key>
@@ -161,7 +174,9 @@
       <updated>1598805581519</updated>
       <workItem from="1598805582703" duration="6046000" />
       <workItem from="1598823770554" duration="11792000" />
-      <workItem from="1598921078261" duration="7230000" />
+      <workItem from="1598921078261" duration="7698000" />
+      <workItem from="1598969092157" duration="5197000" />
+      <workItem from="1599004458052" duration="1430000" />
     </task>
     <servers />
   </component>
@@ -169,6 +184,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1173" y="277" width="524" height="478" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1598973546017">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1173" y="277" width="524" height="478" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598973546017" />
     <state x="623" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1598832805192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

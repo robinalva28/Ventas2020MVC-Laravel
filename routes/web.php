@@ -27,9 +27,16 @@ Route::get('/agregarProducto', function(){
 
 Route::get('/adminProductos', 'ProductoController@index');
 
+/* PRODUCTOS */
+
 Route::post('/agregarProducto', 'ProductoController@store');
 Route::get('/modificarProducto/{id}','ProductoController@edit');
 Route::post('/modificarProducto/{id}','ProductoController@update');
 Route::get('/eliminarProducto/{id}', 'ProductoController@destroy');
+
+/* COMPRAS */
+
+Route::get('/agregarCompra','CompraController@show');
+Route::post('/agregarCompra','CompraController@store');
 
 
