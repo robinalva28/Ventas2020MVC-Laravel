@@ -8,7 +8,8 @@ class Venta extends Model
 {
     protected $table = 'ventas';
     protected $primaryKey = 'venId';
-    protected $guarded = [];
+    //protected $guarded = [];
+    protected $fillable = ['venNombreComprador','venStock', 'venIdProducto','venPrecio'/*,'venCuotas'*/];
     public $timestamps = false;
 
 }

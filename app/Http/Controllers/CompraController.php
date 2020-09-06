@@ -43,16 +43,20 @@ class CompraController extends Controller
              'prdImagen' => 'image|mimes:jpeg,png,jpg,gif,svg|max:4096'
          ]);*/
 
+        /*OBTENGO EL ID DEL PRODUCTO PARA SUMAR EL STOCK NUEVO AL ACTUAL*/
+        $prdNom = Producto::find($request['comIdProducto']);
+        //dd($prdNom['prdNombre']);
         $compra = Compra::create([
             'comVendedor' => $request['comVendedor'],
             'comIdProducto' => $request ['comIdProducto'],
+            'comNomProducto' => $prdNom['prdNombre'],
             'comPrecio' => $request['comPrecio'],
             'comStock' => $request['comStock'],
             'infoAdicional' => $request['infoAdicional']
 
         ]);
-        /*OBTENGO EL ID DEL PRODUCTO PARA SUMAR EL STOCK NUEVO AL ACTUAL*/
         $Producto = Producto::find($request ['comIdProducto']);
+        /*OBTENGO EL STOCK DEL PRODUCTO Y LUEGO SUMO EL NUEVO AL QUE YA ESTABA*/
         $stockActual= $Producto['prdStock'];
         //dd($Producto);
         $Producto->update([

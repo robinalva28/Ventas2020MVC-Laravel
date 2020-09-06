@@ -44,6 +44,7 @@ create table ventas(
     venNombreComprador varchar(15) not null,
     venIdProducto	int,
     venStock      int,
+    venPrecio      float,
     foreign key (venIdProducto) references productos(prdId)
 );
 /*CREACION DE LA TABLA COMPRAS*/
@@ -53,6 +54,7 @@ create table compras(
 	comId			int auto_increment primary key,
 	comVendedor		varchar(15) not null,
 	comIdProducto int,
+	comNomProducto    varchar(80),
 	comStock     int,
 	comPrecio   float,
 	infoAdicional    varchar(80),

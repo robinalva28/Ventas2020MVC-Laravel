@@ -10,7 +10,7 @@ class Compra extends Model
     protected $table = 'compras';
     protected $primaryKey = 'comId';
     //protected $guarded = [];
-    protected $fillable = ['comVendedor', 'comIdProducto','comStock','comPrecio','infoAdicional'];
+    protected $fillable = ['comNomProducto','comVendedor', 'comIdProducto','comStock','comPrecio','infoAdicional'];
     //public $timestamps = false;
 
     public function getProducto()

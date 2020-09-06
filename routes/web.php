@@ -38,15 +38,18 @@ Route::get('/eliminarProducto/{id}', 'ProductoController@destroy');
 
 Route::get('/agregarCompra','CompraController@show');
 Route::post('/agregarCompra','CompraController@store');
+Route::get('/listadoCompras','CompraController@list');
 
 /*MOVIMIENTOS*/
-
 Route::get('/movimientos',function (){
     return view('movimientos');
 });
 
-/*COMPRAS*/
+/*VENTAS*/
+Route::get('/agregarCompra','VentaController@show');
+Route::get('/agregarVenta','VentaController@show');
 
-Route::get('/listadoCompras','CompraController@list');
+
+
 
 

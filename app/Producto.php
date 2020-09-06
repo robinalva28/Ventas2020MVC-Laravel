@@ -17,4 +17,9 @@ class Producto extends Model
     {
         return $this->belongsTo('App\Venta', 'prdId', 'venIdProducto');
     }
+
+    public function getCompra()
+    {
+        return $this->belongsTo('App\Compra', 'prdId', 'comIdProducto');
+    }
 }
