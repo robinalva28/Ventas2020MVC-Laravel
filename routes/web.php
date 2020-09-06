@@ -46,7 +46,7 @@ Route::get('/movimientos',function (){
 });
 
 /*VENTAS*/
-Route::get('/agregarCompra','VentaController@show');
+Route::post('/agregarVenta','VentaController@store');
 Route::get('/agregarVenta','VentaController@show');
 
 

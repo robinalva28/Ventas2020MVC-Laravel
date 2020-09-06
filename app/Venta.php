@@ -10,6 +10,11 @@ class Venta extends Model
     protected $primaryKey = 'venId';
     //protected $guarded = [];
     protected $fillable = ['venNombreComprador','venStock', 'venIdProducto','venPrecio'/*,'venCuotas'*/];
-    public $timestamps = false;
+   /* public $timestamps = false;*/
+
+    public function getProducto()
+    {
+        return $this->belongsTo('App\Producto', 'venIdProducto', 'venId');
+    }
 
 }

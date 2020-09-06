@@ -24,18 +24,18 @@
             <select name="venIdProducto" class="form-control" required>
                 <option value="">Seleccione un producto:</option>
                 @foreach ( $productos as $producto )
-                    <option id="venIdProducto" value="{{ $producto->prdId }}">{{ $producto->prdNombre }}</option>
+                    <option id="venIdProducto" value="{{ $producto->prdId }}">{{ $producto->prdNombre . ' - $'.$producto->prdPrecio.'  - stock '.$producto->prdStock}}</option>
                 @endforeach
             </select>
         </div>
 
         <div class="form-group">
             <label for="venStock">Cantidad:</label>
-            <input type="number" name="venStock" value=""class="form-control" id="venStock" required min="0" step="1" max="5">
+            <input type="number" name="venStock" value=""class="form-control" id="venStock" required min="0" step="1" max="20">
         </div>
 
         <div class="form-group">
-            <label for="venPrecio">Precio:</label>
+            <label for="venPrecio">Precio unitario:</label>
             <div class="input-group mb-2">
                 <div class="input-group-prepend">
                     <div class="input-group-text">$</div>

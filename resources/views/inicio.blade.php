@@ -22,7 +22,7 @@
                         <div class="card-body">
                             <h5 class="card-title"></h5>
                             <p class="card-text"></p>
-                            <a href="cat/algo" class="btn btn-success">Registrar Venta</a>
+                            <a href="/agregarVenta" class="btn btn-success">Registrar Venta</a>
                         </div>
                     </div>
                 </div>

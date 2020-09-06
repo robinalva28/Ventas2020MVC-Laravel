@@ -42,7 +42,7 @@
                 <td>{{ $detalle->prdDescripcion }}</td>
                 <td>{{ $detalle->prdPrecio}}</td>
                 <td>{{ $detalle->prdStock}}</td>
-                <td></td>
+                <td>{{ $detalle->prdUnidVen}}</td>
                 <td role="cell"  class="tabla-valor"><p>
                         <a href="modificarProducto/{{$detalle->prdId}}" class="btn btn-outline-secondary">
                             Modificar

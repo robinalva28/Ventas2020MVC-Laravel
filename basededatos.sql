@@ -33,6 +33,7 @@ create table productos(
     prdDescripcion	varchar(200),
     prdPrecio		float,
     prdStock        int,
+    prdUnidVen     int,
     prdEliminado    boolean
 
 );

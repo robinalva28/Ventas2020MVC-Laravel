@@ -63,7 +63,7 @@ class CompraController extends Controller
             'prdStock' => $request['comStock']+$stockActual
         ]);
 
-        return redirect('adminProductos'/*,'ProductosController@index'*/)
+        return redirect('/'/*,'ProductosController@index'*/)
             ->with('mensaje', 'Compra registrada con éxito');
 
     }

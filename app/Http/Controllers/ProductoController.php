@@ -20,6 +20,7 @@ class ProductoController extends Controller
             'prdDescripcion' => $request ['prdDescripcion'],
             'prdPrecio' => $request['prdPrecio'],
             'prdStock' => 0,
+            'prdUnidVen' => 0,
             'prdEliminado' => false
         ]);
 

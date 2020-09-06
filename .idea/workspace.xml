@@ -6,13 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="8bcd9f83-d1bf-462e-ad36-f9f79b3a5613" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Compra.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Compra.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CompraController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CompraController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProductoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/VentaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/VentaController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Producto.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Producto.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Venta.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Venta.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basededatos.sql" beforeDir="false" afterPath="$PROJECT_DIR$/basededatos.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/formAgregarCompra.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/formAgregarCompra.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/listadoCompras.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/listadoCompras.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/adminListaProductos.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/adminListaProductos.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/formAgregarVenta.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/formAgregarVenta.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/inicio.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inicio.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -186,7 +188,7 @@
       <workItem from="1599181175242" duration="1403000" />
       <workItem from="1599262664808" duration="3383000" />
       <workItem from="1599327917083" duration="3519000" />
-      <workItem from="1599350947283" duration="1257000" />
+      <workItem from="1599350947283" duration="4612000" />
     </task>
     <servers />
   </component>
@@ -194,10 +196,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1173" y="277" width="524" height="478" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1598973546017">
+    <state x="1173" y="277" width="524" height="478" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1599352831973">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1173" y="277" width="524" height="478" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598973546017" />
+    <state x="1173" y="277" width="524" height="478" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599352831973" />
     <state x="464" y="154" key="SettingsEditor" timestamp="1599094585853">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
