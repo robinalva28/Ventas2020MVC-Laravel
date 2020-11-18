@@ -21,19 +21,19 @@ use VentasArgentina;
 /*CREACION DE TABLA USUARIOS*/
 create table users(
 	usrId				int auto_increment primary key,
-    nombre			varchar(40),
-    password			varchar(150),
+    nombre			varchar(40) not null,
+    password			varchar(150) not null,
     isAdmin boolean
 );
 
 /*CREAMOS LA TABLA PRODUCTOS*/
 create table productos(
 	prdId			int auto_increment primary key,
-    prdNombre		varchar(40),
+    prdNombre		varchar(50) not null,
     prdDescripcion	varchar(200),
-    prdPrecio		float,
-    prdStock        int,
-    prdUnidVen     int,
+    prdPrecio		float not null,
+    prdStock        int not null,
+    prdUnidVen     int not null,
     prdEliminado    boolean
 
 );
@@ -42,7 +42,7 @@ create table ventas(
     created_at DATE,
 	updated_at date,
 	venId			int auto_increment primary key,
-    venNombreComprador varchar(15) not null,
+    venNombreComprador varchar(20) not null,
     venIdProducto	int,
     venStock      int,
     venPrecio      float,

@@ -39,9 +39,6 @@ class CompraController extends Controller
     public function store(Request $request)
     {
         //
-        /* $validacion = $request->validate([
-             'prdImagen' => 'image|mimes:jpeg,png,jpg,gif,svg|max:4096'
-         ]);*/
 
         /*OBTENGO EL ID DEL PRODUCTO PARA SUMAR EL STOCK NUEVO AL ACTUAL*/
         $prdNom = Producto::find($request['comIdProducto']);

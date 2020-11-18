@@ -34,7 +34,6 @@
         </thead>
         <tbody role="rowgroup">
 
-
         @foreach( $productos as $detalle )
             <tr>
                 <td>{{ $detalle->prdId }}</td>
